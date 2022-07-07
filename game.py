@@ -52,7 +52,7 @@ def start(field):
             print ('Ничья')
             break
         if win(field,user):
-            print(f"ПОБЕДА!!! Выйграл {user}!")
+            print(f"ПОБЕДА!!! Выиграл {user}!")
             break
         count+=1
     playing_field(field)
